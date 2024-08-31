@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/style.css" />
+    <script src="scripts.js" defer></script>
+    <title>Valstybinių numerių generatorius</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <img
+          src="images/Coat_of_arms.png"
+          alt="coat-of-arms"
+          id="coat-of-arms-logo"
+        />
+        <h1>Valstybinių Numerių Generatorius</h1>
+      </div>
+      <div class="content">
+        <div id="carousel">
+          <div id="number-plate"><div id="number-plate-text"></div></div>
+          <img src="images/Nissan-Qashqai.jpg" alt="car" id="car-image" />
+          <button id="previous-button">&lt</button>
+          <button id="next-button">&gt</button>
+        </div>
+        <div id="form">
+          <form>
+            <label for="dropdown">Formatas:</label>
+            <select id="dropdown" name="dropdown">
+              <option value="option1">Vytis</option>
+              <option value="option2">EU vėliava</option>
+              <option value="option3">LT vėliava</option>
+              <option value="option3">Kvadratiniai + Vytis</option>
+              <option value="option3">Kvadratiniai + EU vėliava</option>
+              <option value="option3">Kvadratiniai + LT vėliava</option>
+              <option value="option3">Vardiniai + Vytis</option>
+              <option value="option3">Vardiniai + EU vėliava</option>
+              <option value="option3">Vardiniai + LT vėliava</option>
+              <option value="option3">EV + Vytis</option>
+              <option value="option3">EV + EU vėliava</option>
+              <option value="option3">Istoriniai</option>
+            </select>
+            <label for="number">Numeris:</label>
+            <input type="text" id="entered-number" name="entered-number" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #1f1f1f;
+  margin: 20px 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 760px;
+  margin: auto;
+  position: absolute;
+  display: block;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.content {
+  position: relative;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+#coat-of-arms-logo {
+  height: 40px;
+  margin: 20px 5px 0 0;
+}
+
+#number-plate {
+  background-image: url("images/vn-vytis.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 47px;
+  position: absolute;
+  z-index: 100;
+}
+
+#number-plate-text {
+  display: flex;
+  font-family: "DIN 1451 Std Mittelschrift";
+  font-size: 36px;
+  padding: 0 0 0 35px;
+  color: #1f1f1f;
+  letter-spacing: 3px;
+  justify-content: center;
+}
+
+#carousel img {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  position: relative;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 20px 50px;
+  width: 80%;
+}
+
+#form input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  outline: #1f1f1f;
+}
+
+#dropdown {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: 20px;
+}
+
+#previous-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #f4f4f4;
+  border: 1px solid #d9d9d9;
+  border-radius: 25px;
+  margin: 10px 0;
+  top: 220px;
+  left: 10px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#next-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d9d9d9;
+  border-radius: 25px;
+  margin: 10px 0;
+  top: 220px;
+  right: 10px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#previous-button:hover,
+#next-button:hover {
+  opacity: 0.7;
+  background-color: #f4f4f4;
+}
